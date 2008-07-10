@@ -1,0 +1,9 @@
+SVN_BRANCH="branches/webkit"
+SVN_REV=${PVP[3]}
+inherit gnome2 svn
+
+DESCRIPTION="GNOME help documentation browser"
+
+DIFF_EXCLUDES="db*.xsl"
+
+CYGCONF_ARGS="--with-search=basic"
