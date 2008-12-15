@@ -1,5 +1,5 @@
 category: Doc Gnome
-requires: cygwin GConf2 glib2 gnome-doc-utils gtk2-x11 libX11_6 libbz2_1 libdbus-glib_1_2 libglade2 libgnome2 libgnomeui2 libintl8 liblzmadec0 libxml2 libxslt rarian startup-notification webkit zlib
+requires: cygwin GConf2 gnome-doc-utils libbz2_1 libdbus-glib_1_2 libgconf2_4 libglade2.0_0 libglib2.0_0 libgnome2_0 libgnomeui2_0 libgtk2.0_0 libintl8 liblzmadec0 librarian0 libstartup-notification1_0 libwebkit1.0_1 libX11_6 libxml2 libxslt zlib
 sdesc: "GNOME Help browser"
 ldesc: "Yelp is the default help browser for the GNOME desktop.  Yelp 
 provides a simple graphical interface for viewing DocBook, HTML, man, 
