@@ -1,5 +1,5 @@
 SVN_BRANCH="branches/webkit"
-SVN_REV=${PVP[3]}
+SVN_REV=${PV[4]}
 inherit gnome2 svn
 
 DESCRIPTION="GNOME help documentation browser"
