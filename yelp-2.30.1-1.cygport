@@ -1,8 +1,0 @@
-GIT_BRANCH="origin/webkit"
-inherit gnome2 git
-
-DESCRIPTION="GNOME help documentation browser"
-
-#DIFF_EXCLUDES="db*.xsl"
-
-CYGCONF_ARGS="--with-search=basic"
