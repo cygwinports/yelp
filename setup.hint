@@ -1,5 +1,5 @@
 category: Doc Gnome
-requires: yelp-xsl libbz2_1 libglib2.0_0 libgtk3_0 libintl8 liblzma1 libsqlite3_0 libwebkitgtk3.0_0 libxml2 libxslt
+requires: yelp-xsl libbz2_1 libglib2.0_0 libgtk3_0 libintl8 liblzma5 libsqlite3_0 libwebkitgtk3.0_0 libxml2 libxslt
 sdesc: "GNOME Help browser"
 ldesc: "Yelp is the default help browser for the GNOME desktop.  Yelp 
 provides a simple graphical interface for viewing DocBook, HTML, man, 
