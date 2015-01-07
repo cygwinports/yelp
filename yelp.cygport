@@ -1,7 +1,7 @@
 inherit gnome2
 
 NAME="yelp"
-VERSION=3.10.2
+VERSION=3.14.1
 RELEASE=1
 CATEGORY="Doc GNOME"
 SUMMARY="GNOME Help browser"
@@ -13,3 +13,6 @@ REQUIRES="yelp-xsl"
 PATCH_URI="3.0.0-cygwin.patch"
 
 DIFF_EXCLUDES="catalog *.xsl"
+
+# hangs during "Introspecting gobjects"
+CYGCONF_ARGS="--disable-gtk-doc"
