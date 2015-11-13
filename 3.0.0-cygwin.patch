@@ -9,25 +9,3 @@
  libyelp_la_LIBADD = $(YELP_LIBS)
  
  libyelp_headers =                   \
---- origsrc/yelp-3.0.0/libyelp/yelp-man-parser.c	2011-03-17 10:51:13.000000000 -0500
-+++ src/yelp-3.0.0/libyelp/yelp-man-parser.c	2011-04-07 04:58:46.135803400 -0500
-@@ -36,6 +36,8 @@
- #include "yelp-error.h"
- #include "yelp-man-parser.h"
- 
-+#undef stdout
-+
- #define MAN_FONTS 8
- 
- /* The format has two copies of the title like MAN(1) at the top,
---- origsrc/yelp-3.0.0/libyelp/yelp-uri.c	2011-03-17 10:51:13.000000000 -0500
-+++ src/yelp-3.0.0/libyelp/yelp-uri.c	2011-04-07 05:01:14.964555300 -0500
-@@ -34,6 +34,8 @@
- #include "yelp-debug.h"
- #include "yelp-settings.h"
- 
-+#undef stdout
-+
- static void           yelp_uri_class_init        (YelpUriClass   *klass);
- static void           yelp_uri_init              (YelpUri        *uri);
- static void           yelp_uri_dispose           (GObject        *object);
